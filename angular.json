@@ -127,5 +127,8 @@
       }
     }
   },
-  "defaultProject": "stripe"
+  "defaultProject": "stripe",
+  "cli": {
+    "analytics": false
+  }
 }

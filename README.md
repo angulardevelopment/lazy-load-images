@@ -1,7 +1,7 @@
 # About
 
-Lazy load images 
-
+Lazy load images with debouncing and
+npm i @trademe/ng-defer-load  
 # Stripe
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.3.

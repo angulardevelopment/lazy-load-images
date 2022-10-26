@@ -6,17 +6,42 @@ import { AppComponent } from './app.component';
 import { SlideComponent } from './slide/slide.component';
 import { LibComponent } from './lib/lib.component';
 import { DeferLoadModule } from '@trademe/ng-defer-load';
+import { ClickdropComponent } from './clickdrop/clickdrop.component';
+import { PanelComponent } from './panel/panel.component';
+import { ScopesComponent } from './scopes/scopes.component';
+import { BasicComponent } from './basic/basic.component';
+import { CloudinaryComponent } from './cloudinary/cloudinary.component';
+import { FileUploadModule } from 'ng2-file-upload';
+import { HttpClientModule } from '@angular/common/http';
+import { Cloudinary } from 'cloudinary-core';
+import {  CloudinaryModule } from '@cloudinary/angular-5.x';
 
+const cloudConfig = {
+  cloud_name: 'sdcssd', upload_preset: 'fsfasd'
+};
+
+const cloudinaryLib = {
+  Cloudinary: Cloudinary
+};
 @NgModule({
   declarations: [
     AppComponent,
     SlideComponent,
-    LibComponent
+    LibComponent,
+    ClickdropComponent,
+    PanelComponent,
+    ScopesComponent,
+    BasicComponent,
+    CloudinaryComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    DeferLoadModule
+    DeferLoadModule,
+
+    FileUploadModule,
+    HttpClientModule,
+    CloudinaryModule.forRoot(cloudinaryLib, cloudConfig)
   ],
   providers: [],
   bootstrap: [AppComponent]

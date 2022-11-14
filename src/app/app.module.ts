@@ -9,7 +9,7 @@ import { DeferLoadModule } from '@trademe/ng-defer-load';
 import { ClickdropComponent } from './clickdrop/clickdrop.component';
 import { PanelComponent } from './panel/panel.component';
 import { ScopesComponent } from './scopes/scopes.component';
-import { BasicComponent } from './basic/basic.component';
+import { CarouselComponent } from './basic/basic.component';
 import { CloudinaryComponent } from './cloudinary/cloudinary.component';
 import { FileUploadModule } from 'ng2-file-upload';
 import { HttpClientModule } from '@angular/common/http';
@@ -31,7 +31,7 @@ const cloudinaryLib = {
     ClickdropComponent,
     PanelComponent,
     ScopesComponent,
-    BasicComponent,
+    CarouselComponent,
     CloudinaryComponent
   ],
   imports: [

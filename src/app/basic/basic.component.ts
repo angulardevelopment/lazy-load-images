@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './basic.component.html',
   styleUrls: ['./basic.component.scss']
 })
-export class BasicComponent implements OnInit {
+export class CarouselComponent implements OnInit {
   // customOptions: OwlOptions = {
   //   loop: true,
   //   mouseDrag: false,

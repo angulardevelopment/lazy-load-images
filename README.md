@@ -1,4 +1,7 @@
-
+    "@cloudinary/angular-5.x": "^1.5.3",
+    "@trademe/ng-defer-load": "^8.2.1",
+    "cloudinary-core": "^2.13.0",
+    "ng2-file-upload": "^1.4.0",
 
 ## App name
 

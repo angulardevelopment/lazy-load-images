@@ -39,10 +39,13 @@ Implemented basic features like-
 Replace demo in all the following examples with your Cloudinary's cloud name to access images.
 
 ### Useful Links
+- https://github.com/kemeb/cloudinary_challenge_rome
 - [Normal Image](http://res.cloudinary.com/demo/image/upload/sample.jpg)
 - [Image w_150,h_100](http://res.cloudinary.com/demo/image/upload/w_150,h_100,c_fill/sample.jpg)
 - [Image w_150,h_100, g_face](http://res.cloudinary.com/demo/image/facebook/c_thumb,g_face,h_90,w_120/billclinton.jpg)
 - [Image w_150,h_100, rounded corners of 20 pixels](http://res.cloudinary.com/demo/image/upload/w_150,h_100,c_fill,r_20/sample.png)
+- [ crop around the face of the person in the center, in a 400X400 square](https://res.cloudinary.com/balazs/image/upload/c_crop,g_face,h_400,w_400/photo-1495366691023-cc4eadcc2d7e_eolq2v.webp)
+- (https://res.cloudinary.com/balazs/image/upload/e_gen_recolor:prompt_thebagt;to-color_green/gabrielle-henderson-IuGQoHIp8LY-unsplash_xv4jr3.jpg)
 
 ## Subscribe and Stay Updated!
 

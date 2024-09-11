@@ -10,9 +10,8 @@ import { Cloudinary } from '@cloudinary/angular-5.x';
 })
 export class CloudinaryComponent implements OnInit {
 
-  title = 'cloudinary';
-  @Input()
-  responses: Array<any>;
+  title = 'image title';
+  @Input() responses: Array<any>;
 
   hasBaseDropZoneOver: boolean = false;
   uploader: FileUploader;
